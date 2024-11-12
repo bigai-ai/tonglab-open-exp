@@ -1,5 +1,5 @@
 # 重要提示：room_id、user_id、agent_id要与前端页面上的房间号、用户id、智能体id一致！！！！！！
-room_id = 4164 # 房间号
+room_id = 4237 # 房间号
 user_id = "8a7f8352-dec0-453f-b242-e0eab727d878" # 用户id
 agent_id = "6c36afef-32d7-4f16-a3c9-fd8ee65604bb" # 智能体id
 

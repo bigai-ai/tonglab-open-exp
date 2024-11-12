@@ -14,11 +14,13 @@ class Agent:
         if not self.lst_env_data:
             return constant.STOP
         env_data_last = self.lst_env_data[-1] # 获取最新一轮的环境数据
-        lst_wall_xy = [[v['position']['x'],v['position']['y']] for k,v in env_data_last['data']['mapInfo']['6']['objectPositions'].items()]
+        obj_wall = [i for i in env_data_last['data']['mapInfo'] if i['objectName'] == "wall"][0]
+        lst_wall_xy = [[i['x'],i['y']] for i in obj_wall['wallPositions']]
         lst2d_wall_xy = [[False for _ in range(19)] for _ in range(19)]  # 使用列表推导式创建独立的列表
         for x,y in lst_wall_xy:
             lst2d_wall_xy[y][x] = True
-        pos_sunwukong = [v for k,v in env_data_last['data']['mapInfo']['5']['objectPositions'].items()][0]['position']
+        obj_sunwukong = [i for i in env_data_last['data']['mapInfo'] if i['objectName'] == "孙悟空"][0]
+        pos_sunwukong = [v for k,v in obj_sunwukong['objectPositions'].items()][0]['position']
         x_sunwukong, y_sunwukong = pos_sunwukong['x'], pos_sunwukong['y']
         # 孙悟空不能撞墙，也不能走出地图边界
         lst_action = [constant.UP, constant.DOWN, constant.LEFT, constant.RIGHT, constant.STOP]
