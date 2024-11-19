@@ -1,0 +1,292 @@
+{
+    "roomType": 20,
+    "mapId": 0,
+    "mapSize": {
+        "height": 19,
+        "width": 19
+    },
+    "mapName": "offical_map",
+    "revenueSplits": 0.5,
+    "huntPreference": 0,
+    "energyPerStep": 100,
+    "energyAtRest": 50,
+    "mapInfo": [
+        {
+            "objectId": 6,
+            "objectName": "wall",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/wall.svg",
+            "objectType": 10,
+            "subObjectType": 0,
+            "score": 0,
+            "wallPositions": [
+                {
+                    "x": 7,
+                    "y": 15
+                },
+                {
+                    "x": 14,
+                    "y": 10
+                },
+                {
+                    "x": 6,
+                    "y": 15
+                },
+                {
+                    "x": 5,
+                    "y": 9
+                },
+                {
+                    "x": 16,
+                    "y": 10
+                },
+                {
+                    "x": 17,
+                    "y": 7
+                },
+                {
+                    "x": 8,
+                    "y": 11
+                },
+                {
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "x": 13,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 14
+                },
+                {
+                    "x": 6,
+                    "y": 13
+                },
+                {
+                    "x": 8,
+                    "y": 15
+                },
+                {
+                    "x": 8,
+                    "y": 10
+                },
+                {
+                    "x": 9,
+                    "y": 10
+                },
+                {
+                    "x": 15,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "x": 8,
+                    "y": 7
+                },
+                {
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "x": 14,
+                    "y": 1
+                },
+                {
+                    "x": 8,
+                    "y": 13
+                },
+                {
+                    "x": 8,
+                    "y": 12
+                },
+                {
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "x": 10,
+                    "y": 10
+                },
+                {
+                    "x": 6,
+                    "y": 14
+                },
+                {
+                    "x": 17,
+                    "y": 8
+                },
+                {
+                    "x": 16,
+                    "y": 6
+                },
+                {
+                    "x": 17,
+                    "y": 10
+                },
+                {
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "x": 15,
+                    "y": 5
+                },
+                {
+                    "x": 17,
+                    "y": 9
+                },
+                {
+                    "x": 17,
+                    "y": 6
+                },
+                {
+                    "x": 15,
+                    "y": 10
+                },
+                {
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "x": 15,
+                    "y": 2
+                },
+                {
+                    "x": 15,
+                    "y": 1
+                },
+                {
+                    "x": 10,
+                    "y": 7
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "x": 12,
+                    "y": 7
+                },
+                {
+                    "x": 15,
+                    "y": 4
+                },
+                {
+                    "x": 15,
+                    "y": 6
+                },
+                {
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "objectId": 1,
+            "objectName": "stag",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/鹿.png",
+            "objectType": 12,
+            "subObjectType": 121,
+            "score": 50000,
+            "objectPositions": {
+                "14bd083d-2670-4117-9cb4-0c23b03ea529": {
+                    "position": {
+                        "x": 6,
+                        "y": 12
+                    }
+                },
+                "acc4e5a8-6109-4400-8139-06e8449821e9": {
+                    "position": {
+                        "x": 16,
+                        "y": 7
+                    }
+                },
+                "b9512deb-34ac-4035-838c-c79a3fa6f225": {
+                    "position": {
+                        "x": 3,
+                        "y": 3
+                    }
+                }
+            }
+        },
+        {
+            "objectId": 2,
+            "objectName": "hare",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/兔.png",
+            "objectType": 12,
+            "subObjectType": 120,
+            "score": 10000
+        },
+        {
+            "objectId": 3,
+            "objectName": "沙和尚",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/沙和尚.png",
+            "objectType": 11,
+            "subObjectType": 0,
+            "score": 21800,
+            "objectPositions": {
+                "08eb13b0-5fea-4d6a-92c6-d480a5c90d94": {
+                    "role": 111,
+                    "position": {
+                        "x": 4,
+                        "y": 14
+                    }
+                }
+            }
+        },
+        {
+            "objectId": 4,
+            "objectName": "猪八戒",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/猪八戒.png",
+            "objectType": 11,
+            "subObjectType": 0,
+            "score": 31900,
+            "objectPositions": {
+                "e9e4fcdc-ecdf-44f9-a7f8-0e936751b2a9": {
+                    "role": 110,
+                    "position": {
+                        "x": 5,
+                        "y": 4
+                    }
+                }
+            }
+        },
+        {
+            "objectId": 5,
+            "objectName": "孙悟空",
+            "objectIcon": "http://123.127.249.42:9880/huntstag/孙悟空.png",
+            "objectType": 11,
+            "subObjectType": 0,
+            "score": 12150,
+            "objectPositions": {
+                "6c36afef-32d7-4f16-a3c9-fd8ee65604bb": {
+                    "role": 111,
+                    "position": {
+                        "x": 13,
+                        "y": 8
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -27,6 +27,7 @@ def broadcast(data):
         root.quit()
         return
     if message_type in [10, 14, 15]:# 游戏开始或者获取最新地图信息，触发动作规划函数
+        print(f'======={data}')
         agent.add_env_data(data)
         if gui.mode == constant.STOP_AUTOMATION: # 不使用AI托管
             return
