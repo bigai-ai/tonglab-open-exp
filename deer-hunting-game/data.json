@@ -14,7 +14,7 @@
         {
             "objectId": 6,
             "objectName": "wall",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/wall.svg",
+            "objectIcon": "http://xxx/huntstag/wall.svg",
             "objectType": 10,
             "subObjectType": 0,
             "score": 0,
@@ -204,7 +204,7 @@
         {
             "objectId": 1,
             "objectName": "stag",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/鹿.png",
+            "objectIcon": "http://xxx/huntstag/鹿.png",
             "objectType": 12,
             "subObjectType": 121,
             "score": 50000,
@@ -232,7 +232,7 @@
         {
             "objectId": 2,
             "objectName": "hare",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/兔.png",
+            "objectIcon": "http://xxx/huntstag/兔.png",
             "objectType": 12,
             "subObjectType": 120,
             "score": 10000
@@ -240,7 +240,7 @@
         {
             "objectId": 3,
             "objectName": "沙和尚",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/沙和尚.png",
+            "objectIcon": "http://xxx/huntstag/沙和尚.png",
             "objectType": 11,
             "subObjectType": 0,
             "score": 21800,
@@ -257,7 +257,7 @@
         {
             "objectId": 4,
             "objectName": "猪八戒",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/猪八戒.png",
+            "objectIcon": "http://xxx/huntstag/猪八戒.png",
             "objectType": 11,
             "subObjectType": 0,
             "score": 31900,
@@ -274,7 +274,7 @@
         {
             "objectId": 5,
             "objectName": "孙悟空",
-            "objectIcon": "http://123.127.249.42:9880/huntstag/孙悟空.png",
+            "objectIcon": "http://xxx/huntstag/孙悟空.png",
             "objectType": 11,
             "subObjectType": 0,
             "score": 12150,
