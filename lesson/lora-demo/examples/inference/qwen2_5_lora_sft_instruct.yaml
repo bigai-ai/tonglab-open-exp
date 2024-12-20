@@ -1,0 +1,6 @@
+model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+adapter_name_or_path: saves/Qwen2.5-0.5B-Instruct/lora/train_2024-12-18-18-59-10
+template: qwen
+finetuning_type: lora
+infer_backend: huggingface  # choices: [huggingface, vllm]
+

@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+adapter_name_or_path: saves/Qwen2.5-0.5B-Instruct/lora/train_qwen2_5_lora_sft_diag_grounding_2024-12-18-18-59-10
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: models/qwen2_5_lora_sft_diag_grounding-2024-12-18-18-59-10
+export_size: 2
+export_device: gpu
+export_legacy_format: false

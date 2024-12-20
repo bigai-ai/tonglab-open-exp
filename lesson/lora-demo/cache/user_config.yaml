@@ -1,0 +1,6 @@
+cache_dir: null
+lang: zh
+last_model: Custom
+path_dict:
+  Custom: export/tongtong
+  Yi-34B-Chat: 01-ai/Yi-34B-Chat

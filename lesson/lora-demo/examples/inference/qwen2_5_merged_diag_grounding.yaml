@@ -1,0 +1,4 @@
+model_name_or_path: models/qwen2_5_lora_sft_diag_grounding-2024-12-18-18-59-10
+template: qwen
+infer_backend: huggingface  # choices: [huggingface, vllm]
+
